@@ -1,11 +1,24 @@
-#IMG {width: 500px;
+#IMG {
+      width: 500px;
       height: 550px;
       display: block;
       margin-left: auto;
       margin-right: auto;
 }
-body{
+body {
     background-color: green;
+}
+
+.sr-only {
+    padding: 0.5rem;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    color:azure;
+}
+
+.col-sm {
+    justify-content: center;
 }
 #Title {
     font-style: italic;
